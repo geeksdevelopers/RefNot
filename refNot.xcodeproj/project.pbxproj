@@ -15,6 +15,7 @@
 		B5351E3C21613386000141AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5351E3A21613386000141AE /* LaunchScreen.storyboard */; };
 		B5351E4721613386000141AE /* refNotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5351E4621613386000141AE /* refNotTests.swift */; };
 		B5351E5221613386000141AE /* refNotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5351E5121613386000141AE /* refNotUITests.swift */; };
+		B5351E60216135C3000141AE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5351E5F216135C3000141AE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B5351E4D21613386000141AE /* refNotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = refNotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5351E5121613386000141AE /* refNotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = refNotUITests.swift; sourceTree = "<group>"; };
 		B5351E5321613386000141AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5351E5F216135C3000141AE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		B5351E2221613383000141AE = {
 			isa = PBXGroup;
 			children = (
+				B5351E5F216135C3000141AE /* README.md */,
 				B5351E2D21613383000141AE /* refNot */,
 				B5351E4521613386000141AE /* refNotTests */,
 				B5351E5021613386000141AE /* refNotUITests */,
@@ -234,6 +237,7 @@
 			files = (
 				B5351E3C21613386000141AE /* LaunchScreen.storyboard in Resources */,
 				B5351E3921613386000141AE /* Assets.xcassets in Resources */,
+				B5351E60216135C3000141AE /* README.md in Resources */,
 				B5351E3421613384000141AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
