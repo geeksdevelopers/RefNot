@@ -1,0 +1,6 @@
+framework module Pods_refNotTests {
+  umbrella header "Pods-refNotTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
