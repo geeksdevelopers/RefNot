@@ -6,10 +6,19 @@ target 'refNot' do
   use_frameworks!
 
   # Pods for refNot
-
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
+  pod 'Realm', '~> 3.10'
+  pod 'SnapKit', '~> 4.0'
+  pod 'Alamofire', '~> 4.7'
+  pod 'SwiftyJSON', '~> 4.2'
+  
   target 'refNotTests' do
     inherit! :search_paths
-    # Pods for testing
+    
+    pod 'RxBlocking', '~> 4.0'
+    pod 'RxTest',     '~> 4.0'
+    
   end
 
   target 'refNotUITests' do
