@@ -144,6 +144,12 @@
 		B5351E2D21613383000141AE /* refNot */ = {
 			isa = PBXGroup;
 			children = (
+				B5A9C3B42162996F00E7CE45 /* Storyboards */,
+				B5A9C3B3216290C900E7CE45 /* Views */,
+				B5A9C3B2216290C000E7CE45 /* Models */,
+				B5A9C3B1216290AC00E7CE45 /* Helpers */,
+				B5A9C3B021628F5A00E7CE45 /* ViewControllers */,
+				B5A9C3AF21628F4E00E7CE45 /* ViewModels */,
 				B5351E2E21613383000141AE /* AppDelegate.swift */,
 				B5351E3021613383000141AE /* ViewController.swift */,
 				B5351E3221613383000141AE /* Main.storyboard */,
@@ -171,6 +177,48 @@
 				B5351E5321613386000141AE /* Info.plist */,
 			);
 			path = refNotUITests;
+			sourceTree = "<group>";
+		};
+		B5A9C3AF21628F4E00E7CE45 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B5A9C3B021628F5A00E7CE45 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B5A9C3B1216290AC00E7CE45 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B5A9C3B2216290C000E7CE45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5A9C3B3216290C900E7CE45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5A9C3B42162996F00E7CE45 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
