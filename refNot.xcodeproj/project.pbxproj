@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		442D79EFCE5A5F93830F335A /* Pods_refNot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DE125279AC758DE8E6F02B /* Pods_refNot.framework */; };
 		83CB02E3593470A6759868C4 /* Pods_refNotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5191D59CAB3583D7944CF081 /* Pods_refNotUITests.framework */; };
+		B52DFBAC2162AE3E00E5C63A /* RecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52DFBAB2162AE3E00E5C63A /* RecoveryViewController.swift */; };
 		B5351E2F21613383000141AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5351E2E21613383000141AE /* AppDelegate.swift */; };
 		B5351E3121613383000141AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5351E3021613383000141AE /* ViewController.swift */; };
 		B5351E3421613384000141AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5351E3221613383000141AE /* Main.storyboard */; };
@@ -18,6 +19,11 @@
 		B5351E4721613386000141AE /* refNotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5351E4621613386000141AE /* refNotTests.swift */; };
 		B5351E5221613386000141AE /* refNotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5351E5121613386000141AE /* refNotUITests.swift */; };
 		B5351E60216135C3000141AE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5351E5F216135C3000141AE /* README.md */; };
+		B584CDC7216616EE00824E10 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B584CDC6216616EE00824E10 /* Colors.swift */; };
+		B586DE382162AD0F0000D714 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B586DE372162AD0F0000D714 /* Authentication.storyboard */; };
+		B586DE3B2162ADD50000D714 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586DE3A2162ADD50000D714 /* AuthorizationViewController.swift */; };
+		B586DE3D2162AE050000D714 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586DE3C2162AE050000D714 /* RegistrationViewController.swift */; };
+		B5BFF6572162CE1900CE240F /* AuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BFF6562162CE1900CE240F /* AuthorizationViewModel.swift */; };
 		ECDDC1C943395DE96D24FBFB /* Pods_refNotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC285C07939BAC7F7F1E7954 /* Pods_refNotTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +51,7 @@
 		5191D59CAB3583D7944CF081 /* Pods_refNotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_refNotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AC42A1B41FAA432F2D8347 /* Pods-refNot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-refNot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-refNot/Pods-refNot.debug.xcconfig"; sourceTree = "<group>"; };
 		A8B80971D7A6F47768161862 /* Pods-refNotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-refNotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-refNotTests/Pods-refNotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B52DFBAB2162AE3E00E5C63A /* RecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryViewController.swift; sourceTree = "<group>"; };
 		B5351E2B21613383000141AE /* refNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = refNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5351E2E21613383000141AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5351E3021613383000141AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,8 +67,13 @@
 		B5351E5121613386000141AE /* refNotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = refNotUITests.swift; sourceTree = "<group>"; };
 		B5351E5321613386000141AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5351E5F216135C3000141AE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B584CDC6216616EE00824E10 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B586DE372162AD0F0000D714 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		B586DE3A2162ADD50000D714 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		B586DE3C2162AE050000D714 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		B5A9C3AD21615B0A00E7CE45 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		B5A9C3AE21615B0B00E7CE45 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B5BFF6562162CE1900CE240F /* AuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewModel.swift; sourceTree = "<group>"; };
 		BC285C07939BAC7F7F1E7954 /* Pods_refNotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_refNotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3185B28A2CD2D987C4A0184 /* Pods-refNotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-refNotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-refNotUITests/Pods-refNotUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1DE125279AC758DE8E6F02B /* Pods_refNot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_refNot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,9 +191,20 @@
 			path = refNotUITests;
 			sourceTree = "<group>";
 		};
+		B586DE392162ADB30000D714 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B586DE3A2162ADD50000D714 /* AuthorizationViewController.swift */,
+				B586DE3C2162AE050000D714 /* RegistrationViewController.swift */,
+				B52DFBAB2162AE3E00E5C63A /* RecoveryViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		B5A9C3AF21628F4E00E7CE45 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B5BFF6552162CA9300CE240F /* Authentication */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -189,6 +212,7 @@
 		B5A9C3B021628F5A00E7CE45 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B586DE392162ADB30000D714 /* Authentication */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -196,6 +220,7 @@
 		B5A9C3B1216290AC00E7CE45 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				B584CDC6216616EE00824E10 /* Colors.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -217,8 +242,17 @@
 		B5A9C3B42162996F00E7CE45 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				B586DE372162AD0F0000D714 /* Authentication.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B5BFF6552162CA9300CE240F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B5BFF6562162CE1900CE240F /* AuthorizationViewModel.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +368,7 @@
 				B5351E3921613386000141AE /* Assets.xcassets in Resources */,
 				B5351E60216135C3000141AE /* README.md in Resources */,
 				B5351E3421613384000141AE /* Main.storyboard in Resources */,
+				B586DE382162AD0F0000D714 /* Authentication.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,9 +500,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B586DE3B2162ADD50000D714 /* AuthorizationViewController.swift in Sources */,
+				B584CDC7216616EE00824E10 /* Colors.swift in Sources */,
+				B52DFBAC2162AE3E00E5C63A /* RecoveryViewController.swift in Sources */,
 				B5351E3721613384000141AE /* refNot.xcdatamodeld in Sources */,
 				B5351E3121613383000141AE /* ViewController.swift in Sources */,
+				B5BFF6572162CE1900CE240F /* AuthorizationViewModel.swift in Sources */,
 				B5351E2F21613383000141AE /* AppDelegate.swift in Sources */,
+				B586DE3D2162AE050000D714 /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
