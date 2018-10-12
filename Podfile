@@ -8,10 +8,13 @@ target 'refNot' do
   # Pods for refNot
   pod 'RxSwift',    '~> 4.0'
   pod 'RxCocoa',    '~> 4.0'
+  pod 'RxFlow'
   pod 'Realm', '~> 3.10'
   pod 'SnapKit', '~> 4.0'
-  pod 'Alamofire', '~> 4.7'
+  pod 'Moya/RxSwift', '~> 11.0', :inhibit_warnings => true
   pod 'SwiftyJSON', '~> 4.2'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
   
   target 'refNotTests' do
     inherit! :search_paths

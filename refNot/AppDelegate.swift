@@ -8,15 +8,42 @@
 
 import UIKit
 import CoreData
+import Firebase
+import RxFlow
+import RxSwift
+import RxCocoa
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let disposeBag = DisposeBag()
+    var coordinator = Coordinator()
+    /*
+     let moviesService = MoviesService()
+     let preferencesService = PreferencesService()
+     
+     lazy var appServices = {
+     return AppServices(moviesService: self.moviesService, preferencesService: self.preferencesService)
+     }()
+     */
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+//        let loginService = AuthenticationService()
+//        let loginControllerViewModel = AuthorizationViewModel(loginService)
+//        let loginController = AuthorizationViewController.create(with: loginControllerViewModel)
+////
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        window?.rootViewController = loginController
+//        window?.makeKeyAndVisible()
+        
+        
+        
         return true
     }
 
@@ -91,3 +118,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+struct AppServices: HasMenuService, HasPreferencesService {
+    let menuService: MenuService
+    let preferencesService: PreferencesService
+}
